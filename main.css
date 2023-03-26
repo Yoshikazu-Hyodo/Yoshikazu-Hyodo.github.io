@@ -1,0 +1,101 @@
+
+.all-page {
+    width: 1000;
+    text-align: left;
+    margin: auto;
+    
+}
+
+.tables {
+    text-align: left;
+}
+
+.base {
+    color: #333333;
+    background-color: rgb(26, 115, 232);
+    color: white;
+}
+
+.tableTop {
+    height: 20px;
+    color: #333333;
+    background-color: rgb(26, 115, 232);
+    color: white;
+}
+
+.th-text {
+    color: #333333;
+}
+
+.tword {
+    width: 200px;
+    height: 20px;
+    text-align: left;
+}
+
+.tmean {
+    width: 300px;
+    height: 20px;
+    text-align: left;
+}
+
+.tableNo {
+    width: 50px;
+    height: 20px;
+    text-align: center;
+}
+
+.d1parent {
+    display: flex;
+}
+
+.d1child {
+    text-align: left;
+    margin-right: 20px;
+    color: #333333;
+}
+
+.btnLi {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 30px;
+    color: #333333;
+}
+
+.in {
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+.btnAndText {
+    display: flex;
+}
+
+.btn {
+    width: 90px;
+    color: #333333;
+}
+
+.word-parent {
+    margin-top: 10px;
+}
+#start{
+    margin-left: 40px;
+}
+
+#question{
+    margin-left: 40px;
+}
+
+#btnRegister {
+    margin-right: 28px;
+}
+
+#btnRemove {
+    margin-right: 22px;
+}
+
+
+#testPage {
+    height: 500;
+}
