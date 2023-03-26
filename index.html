@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>英単語学習アプリ</title>
+    <meta name="description" content="覚えたい英単語を登録してテストができるアプリです。">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    <div class=all-page>
+        <h1 class="base">英単語学習アプリ</h1>
+        <h2 class="base">単語帳</h2>
+        <div>
+            <table border="1">
+                <tr class="tableTop">
+                    <th class="tableNo">No.</th>
+                    <th class="tables">単語</th>
+                    <th class="tables">意味</th>
+                </tr>
+                <tr class="th-text">
+                    <th class="tableNo" id="no1">1</th>
+                    <th class="tword" id="no1word"></th>
+                    <th class="tmean" id="no1mean"></th>
+                </tr>
+                <tr class="th-text">
+                    <th class="tableNo" id="no2">2</th>
+                    <th class="tword" id="no2word"></th>
+                    <th class="tmean" id="no2mean"></th>
+                </tr>
+                <tr class="th-text">
+                    <th class="tableNo" id="no3">3</th>
+                    <th class="tword" id="no3word"></th>
+                    <th class="tmean" id="no3mean"></th>
+                </tr>
+                <tr class="th-text">
+                    <th class="tableNo" id="no4">4</th>
+                    <th class="tword" id="no4word"></th>
+                    <th class="tmean" id="no4mean"></th>
+                </tr>
+                <tr class="th-text">
+                    <th class="tableNo" id="no5">5</th>
+                    <th class="tword" id="no5word"></th>
+                    <th class="tmean" id="no5mean"></th>
+                </tr>
+                <tr class="th-text">
+                    <th class="tableNo" id="no6">6</th>
+                    <th class="tword" id="no6word"></th>
+                    <th class="tmean" id="no6mean"></th>
+                </tr>
+                <tr class="th-text">
+                    <th class="tableNo" id="no7">7</th>
+                    <th class="tword" id="no7word"></th>
+                    <th class="tmean" id="no7mean"></th>
+                </tr>
+                <tr class="th-text">
+                    <th class="tableNo" id="no8">8</th>
+                    <th class="tword" id="no8word"></th>
+                    <th class="tmean" id="no8mean"></th>
+                </tr>
+                <tr class="th-text">
+                    <th class="tableNo" id="no9">9</th>
+                    <th class="tword" id="no9word"></th>
+                    <th class="tmean" id="no9mean"></th>
+                </tr>
+                <tr class="th-text">
+                    <th class="tableNo" id="no10">10</th>
+                    <th class="tword" id="no10word"></th>
+                    <th class="tmean" id="no10mean"></th>
+                </tr>
+
+            </table>
+            <div class="word-parent">
+                <div class="allow">
+                    <button id="btnLeft" class="btn">　<　</button>
+                    <button id="btnRight" class="btn">　>　</button>
+                    <button id="changeTextColor" class="btn">文字色反転</button>
+                </div>
+            </div>
+        </div>
+        
+        <h2 class="base">英単語登録</h2>
+        
+        <div class="d1parent">
+            <div class="d1child">
+                英単語<br>
+                <input class="in" type="text" id="entryWord">
+            </div>
+            <div class="d1child">
+                意味<br>
+                <input class="in" type="text" id="entryMean">
+            </div>
+        </div>
+    
+        <div class="d2parent" class="base">
+            <div class="btnAndText">
+                <button id="btnRegister" class="btn">登録</button>
+                <button id="btnRemove" class="btn">削除</button>
+                <div id="regText">　　　</div>
+            </div>
+        </div>
+        
+        <h2 class="base">英単語テスト</h2>
+
+        <div id="testPage">
+            <button id="start" class="btn">スタート</button><br>
+            <p id="question">
+                第1/10問 :
+            </p>
+            <div id="container">
+                <ol clsass="ol1">
+                    <li><button class="btnLi" id="btn1">　　　</button></li>
+                    <li><button class="btnLi" id="btn2">　　　</button></li>
+                    <li><button class="btnLi" id="btn3">　　　</button></li>
+                    <li><button class="btnLi" id="btn4">　　　</button></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
