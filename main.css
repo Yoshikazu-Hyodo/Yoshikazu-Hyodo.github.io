@@ -1,9 +1,26 @@
-
 .all-page {
-    width: 1000;
+    width: 650px;
     text-align: left;
-    margin: auto;
+    margin: auto;   
+}
+
+.h1-text{
+    color: #333333;
+    text-align:center;
+}
+
+.h2-text{
+    color: #333333;
+    text-align:center;
+}
+.inline-img{
+    display: inline-flex;
+    align-items: center;
     
+}
+.table-word{
+    text-align:center;
+    margin:auto;
 }
 
 .tables {
@@ -45,8 +62,18 @@
     text-align: center;
 }
 
+
+
 .d1parent {
+    width:400px;
     display: flex;
+    margin: auto; 
+}
+
+.d2parent {
+    width:400px;
+    display: flex;
+    margin: auto; 
 }
 
 .d1child {
@@ -69,6 +96,7 @@
 
 .btnAndText {
     display: flex;
+    margin-top: 15px;  
 }
 
 .btn {
@@ -79,12 +107,27 @@
 .word-parent {
     margin-top: 10px;
 }
+
+.allow {
+    width:400px;
+    margin:auto;
+}
+
+#btnLeft{
+    margin-right: 20px;
+}
+
+#btnRight{
+    margin-right: 50px;
+}
+
 #start{
-    margin-left: 40px;
+    margin-left: 145px;
 }
 
 #question{
-    margin-left: 40px;
+    margin-left: 145px;
+
 }
 
 #btnRegister {
@@ -98,4 +141,9 @@
 
 #testPage {
     height: 500;
+}
+
+.q-btn-list{
+    width:400px;
+    margin: auto; 
 }
